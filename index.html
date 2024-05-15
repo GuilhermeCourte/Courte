@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu Suspenso Avançado</title>
+<!-- link pro css-->
+<link rel="stylesheet" href="./style.css">
+<!-- link pro js-->
+<script src="./script.js"></script>
+
+</head>
+
+<body>
+
+<div class="dropdown">
+    <span>Opções</span>
+    <div class="dropdown-content" id="opcoes">
+        <a href="#" onclick="mostrarInfo('opcao1')">Zonal Sul</a>
+        <a href="#" onclick="mostrarInfo('opcao2')">Zona Norte</a>
+        <a href="#" onclick="mostrarInfo('opcao3')">Zona Leste</a>
+        <a href="#" onclick="mostrarInfo('opcao4')">Zona Oeste</a>
+    </div>
+</div>
+
+<div id="informacoes">
+    <!-- Aqui será exibida a informação correspondente a opção escolhida -->
+</div>
+
+</body>
+</html>
